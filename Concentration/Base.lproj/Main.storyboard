@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -154,18 +154,18 @@
                     </view>
                     <connections>
                         <outlet property="flipCountLabel" destination="M3x-mC-DKx" id="Tna-W9-GqM"/>
-                        <outletCollection property="cardButtons" destination="oTv-2X-r0t" collectionClass="NSMutableArray" id="nzH-El-xq0"/>
-                        <outletCollection property="cardButtons" destination="xFh-jF-dHk" collectionClass="NSMutableArray" id="QaR-fU-rwB"/>
-                        <outletCollection property="cardButtons" destination="D6f-E3-qFw" collectionClass="NSMutableArray" id="f5L-kU-KaZ"/>
-                        <outletCollection property="cardButtons" destination="2Jc-lR-b3E" collectionClass="NSMutableArray" id="z46-Vp-N6H"/>
-                        <outletCollection property="cardButtons" destination="2ZU-Yt-hLM" collectionClass="NSMutableArray" id="T5D-gC-rZq"/>
-                        <outletCollection property="cardButtons" destination="GwT-St-nNE" collectionClass="NSMutableArray" id="Iz9-Ty-JQ2"/>
-                        <outletCollection property="cardButtons" destination="UyF-G0-cNk" collectionClass="NSMutableArray" id="JWL-fD-1SI"/>
-                        <outletCollection property="cardButtons" destination="VFC-9E-3zX" collectionClass="NSMutableArray" id="iq4-3r-RR8"/>
-                        <outletCollection property="cardButtons" destination="tQ8-d9-Wf6" collectionClass="NSMutableArray" id="FOe-xw-6VM"/>
-                        <outletCollection property="cardButtons" destination="ZfF-M2-4G8" collectionClass="NSMutableArray" id="ekJ-P1-EYb"/>
-                        <outletCollection property="cardButtons" destination="Xdm-lU-hgu" collectionClass="NSMutableArray" id="T54-TQ-nzm"/>
-                        <outletCollection property="cardButtons" destination="P5Z-hq-GNI" collectionClass="NSMutableArray" id="Vvh-bg-8vE"/>
+                        <outletCollection property="cardButtons" destination="2Jc-lR-b3E" collectionClass="NSMutableArray" id="DEk-T4-axl"/>
+                        <outletCollection property="cardButtons" destination="oTv-2X-r0t" collectionClass="NSMutableArray" id="nBl-qR-MPi"/>
+                        <outletCollection property="cardButtons" destination="D6f-E3-qFw" collectionClass="NSMutableArray" id="PvK-u8-6Li"/>
+                        <outletCollection property="cardButtons" destination="xFh-jF-dHk" collectionClass="NSMutableArray" id="p8P-dx-nen"/>
+                        <outletCollection property="cardButtons" destination="GwT-St-nNE" collectionClass="NSMutableArray" id="dkT-Zo-x2y"/>
+                        <outletCollection property="cardButtons" destination="VFC-9E-3zX" collectionClass="NSMutableArray" id="X9a-9N-hqi"/>
+                        <outletCollection property="cardButtons" destination="UyF-G0-cNk" collectionClass="NSMutableArray" id="T4G-qV-MOC"/>
+                        <outletCollection property="cardButtons" destination="2ZU-Yt-hLM" collectionClass="NSMutableArray" id="42C-LL-91e"/>
+                        <outletCollection property="cardButtons" destination="tQ8-d9-Wf6" collectionClass="NSMutableArray" id="hoZ-2D-vG7"/>
+                        <outletCollection property="cardButtons" destination="Xdm-lU-hgu" collectionClass="NSMutableArray" id="n5e-p0-Dpw"/>
+                        <outletCollection property="cardButtons" destination="P5Z-hq-GNI" collectionClass="NSMutableArray" id="uzK-oV-emA"/>
+                        <outletCollection property="cardButtons" destination="ZfF-M2-4G8" collectionClass="NSMutableArray" id="5dI-4X-dZN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
